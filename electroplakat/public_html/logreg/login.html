@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Конкурс "Профессия - Учитель"</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 align-self-center">
+                        <img src="../img/sgspu.png" alt="logo" class="logoSGSPU">
+                    </div>
+                    <div class="col-md-6 align-self-center">
+                        <nav class="menu">
+                            <ul class="nav justify-content-end">
+                              <li class="nav-item dropdown">
+                                <a class="nav-link one" href="../index.html">О конкурсе</a>
+                                <!--<a class="nav-link dropdown-toggle one" data-toggle="dropdown" href="#" role="button" aria-expanded="false">О конкурсе</a>
+                                 <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Жюри</a></li>
+                                  <li><a class="dropdown-item" href="#">Положение</a></li>
+                                  <li><a class="dropdown-item" href="#">Организаторы</a></li>
+                                </ul> -->
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="../nomination/nomination.html">Результаты 2023</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="../rules/rules.html">Правила</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="../archive/archive.html">Галерея</a>
+                              </li>
+                            </ul>
+                          </nav>
+                    </div>
+                    <div class="col-md-4 align-self-center px-4">
+                        <button class="btn-reg " type="button" onclick="document.location='registr.html'">Регистрация</button>
+                        <button class="btn-login" type="button" onclick="document.location='#'">Вход</button>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="titleText">
+         <div class="container">
+             <div class="row g-3">
+                 <div class="col-md-12">
+                  <center><h1>Вход в аккаунт</h1></center>
+                 </div>
+                        <div class="container-fluid">
+                            <form id="registrationForm" class="visibility">
+                         <!-- Ваши поля формы здесь -->
+                         <label for="username" class="form-text">Имя пользователя *</label>
+                         <input type="text" id="username" name="username" required class="wide-input">
+                     
+                         <label for="password" class="form-text">Пароль *</label>
+                         <input type="password" id="password" name="password" required class="wide-input">
+                       </form> 
+                    </div>
+                    <div class="col-md-12">
+                          <center><button type="button" class= "btn-send1" onclick="loginUser()">Вход</button></center>
+                        </form>
+
+                </div>
+                 </div>
+             </div>
+         </div>
+        </div>
+     </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 align-self-center">
+                    <div class="logo-textFooter">
+                        <img src="../img/sgspu.png" alt="logo" class="logoSGSPU_footer">
+                        <a href="https://pgsga.ru/">
+                        Самарский государственный социально-педагогический университет
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 align-self-center">
+                    <b>Адрес ВУЗа</b>
+                    <p>
+                        443099, Россия, г. Самара, ул. М. Горького, 65/67
+                    </p>
+                </div>
+                <div class="col-md-3 align-self-center ">
+                    <b>Контакты</b>
+                    <p>
+                        Тел.: 
+                        +7 (846) 207-44-00<br>
+                        E-mail: rectorat@sgspu.ru</br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script href = "login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,338 @@
+html {
+    background-color: #E9E4EA;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+header{
+    height: auto;
+    background: rgba(0, 0, 0, 0.179);
+    border-bottom: 7px solid #223542;
+}
+
+.header{
+    margin: 0;
+}
+
+.logoSGSPU {
+    /* margin-top: 8px;
+    margin-bottom: 8px; */
+    width: auto;
+    height: 75px;
+}
+
+nav a {
+    color: #223542;
+    font-weight: 600;
+    border-right: 2px solid #223542;
+}
+
+
+.btn-reg{
+    background-color:#22354200;
+    border-radius: 15px;
+    border: 3px solid #223542;
+    width: 100pt;
+    height: 50%;
+    color: #223542;
+    font-weight: 600;
+    align-items: center;
+}
+.btn-send{
+    background-color:#22354200;
+    border-radius: 15px;
+    border: 3px solid #223542;
+    width: auto;
+    height: 50%;
+    color: #223542;
+    font-weight: 600;
+    align-items: center;
+    margin-top: 20px;
+}
+.btn-send1{
+    background-color:#22354200;
+    border-radius: 15px;
+    border: 3px solid #223542;
+    width: 100pt;
+    height: 50%;
+    color: #223542;
+    font-weight: 600;
+    align-items: center;
+    margin-top: 20px;
+}
+.btn-login{
+    background-color:#22354200;
+    border-radius: 15px;
+    border: 3px solid #223542;
+    width: 100pt;
+    height: 50%;
+    color: #223542;
+    font-weight: 600;
+}
+
+.btn-reg:hover{
+    background-color:#223542;
+    border: 3px solid #223542;
+    border-radius: 15px;
+    /* width: 40%;
+    height: 50%; */
+    color: #E9E4EA;
+    font-weight: 600;
+}
+
+.btn-login:hover{
+    background-color:#223542;
+    border-radius: 15px;
+    border: 3px solid #223542;
+    /* width: 40%;
+    height: 50%; */
+    color: #E9E4EA;
+    font-weight: 600;
+}
+.btn-send:hover{
+    background-color:#223542;
+    border: 3px solid #223542;
+    border-radius: 15px;
+    /* width: 40%;
+    height: 50%; */
+    color: #E9E4EA;
+    font-weight: 600;
+}
+.btn-send1:hover{
+    background-color:#223542;
+    border: 3px solid #223542;
+    border-radius: 15px;
+    /* width: 40%;
+    height: 50%; */
+    color: #E9E4EA;
+    font-weight: 600;
+}
+main {
+    flex-grow:1;
+    background-image:url(../img/fon.png);
+    margin: 0;
+    padding-top: 15px;
+
+}
+
+.imgTitle {
+    padding: 2%;
+}
+
+.imgTitle a{
+    display: grid;
+    color: #223542;
+    font-weight: 500;
+}
+
+.imgTitle a:hover{
+    display: grid;
+    color: #096aaa;
+    font-weight: 500;
+}
+
+.docImg {
+    width: 35%;
+}
+
+.titleText h5{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24pt;
+    line-height: 46px;
+    color: #223542;
+}
+
+.titleText h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48pt;
+    line-height: 78px;
+    color: #223542;
+    margin-top: -2%;
+}
+
+.titleText p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14pt;
+    line-height: 29px;
+    color: #223542;
+
+}
+
+.purpose{
+    margin-top: 3%;
+}
+
+.purpose img {
+    width: 76%;
+    box-shadow: 0px 15px 25px rgb(73, 73, 73);
+}
+
+.purpose h1 {
+    font-style: normal;
+    padding-left: 10%;
+    font-weight: 700;
+    font-size: 20pt;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #223542;
+}
+
+.purpose p {
+    margin-top: 20px;
+    padding-left: 10%;
+    /* padding: 0px 40px 10px 0px; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14pt;
+    line-height: 29px;
+    
+}
+
+.tasks {
+    margin-top: 3%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14pt;
+    line-height: 29px;
+}
+
+.tasks img {
+    width: 76%;
+    margin-left: 10%;
+    box-shadow: 0px 15px 25px rgb(73, 73, 73);
+}
+
+.tasks h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20pt;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #223542;
+}
+
+.tasks ul {
+    margin-top: 20px;
+    padding-right: 10%;
+}
+
+.organization {
+    margin-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14pt;
+    line-height: 29px;
+}
+
+.organization h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20pt;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #223542;
+}
+
+.organization p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14pt;
+    line-height: 29px;
+}
+
+.contact{
+    margin-top: 3%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/fon-contact.png);
+    padding: 15px 25px 25px 15px;
+    text-align: center;
+}
+
+.contact h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20pt;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #E9E4EA;
+}
+
+.contact b{
+    text-align: center;
+    font-weight: 700;
+    font-size: 14pt;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.contact p{
+    font-weight: 400;
+    font-size: 14pt;
+    line-height: 39px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+footer{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)), url(../img/footer_mini.png);
+}
+
+.logo-textFooter{
+    display: flex;
+}
+
+.logo-textFooter a{
+    margin-left: 5%;
+    margin-top: 8%;
+    color:#E9E4EA;
+}
+
+.logoSGSPU_footer {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 30%;
+}
+
+.img {
+    align-items: center;
+}
+
+footer p {
+    color:#E9E4EA;
+}
+
+footer b{
+    color:#E9E4EA;
+}
+
+.wide-input {
+ width: 100%;
+  padding: 8px;
+  border-radius: 15px;
+  box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-text{
+    color: #223542;
+    font-weight: 600;
+}
+.form-check-label{
+    color: #223542;
+    font-weight: 600;
+}
+.container{
+    text-align: center;
+}
